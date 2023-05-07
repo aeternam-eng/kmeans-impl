@@ -1,0 +1,23 @@
+{
+  "name": "modelagem.kmeans",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "naive": "node ./src/naive/run.js",
+    "heuristic": "node ./src/heuristic/run.js",
+    "benchmark": "node ./src/benchmark.js",
+    "filter": "node ./filter.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Hugo Brandão",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.16.0"
+  },
+  "dependencies": {
+    "nodeplotlib": "^1.1.2"
+  }
+}
